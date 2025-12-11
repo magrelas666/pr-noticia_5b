@@ -1,5 +1,5 @@
 import { Container, Row, Table } from 'react-bootstrap';
-import Tablelist from './components/table';
+import Tablelist from './components/tables';
 export async function getServerSideProps() {
   // Fetch data from external API
   const res = await fetch('https://api-in-fob-fw2.vercel.app/noticias')
