@@ -17,7 +17,7 @@ export default function Postnoticia() {
             tiponoticia
         };
         try {
-            const response = await fetch("https://apinoticias6b.vercel.app/postnoticias", {
+            const response = await fetch("https://api-in-fob-fw2.vercel.app/postnoticias", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
